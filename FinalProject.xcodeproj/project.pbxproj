@@ -53,6 +53,7 @@
 		1D3F1CC529FCF329003E591F /* FunnyVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyVideoView.swift; sourceTree = "<group>"; };
 		1D3F1CC729FCF332003E591F /* SadVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadVideoView.swift; sourceTree = "<group>"; };
 		1D3F1CC929FCF33C003E591F /* SmartVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartVideoView.swift; sourceTree = "<group>"; };
+		1D3F1CCB29FD00B2003E591F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1D4D2E7829FCB8E100BD6678 /* VideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
 		1D4D2E7C29FCD96C00BD6678 /* HappyVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyVideo.swift; sourceTree = "<group>"; };
 		1D4D2E7E29FCD97700BD6678 /* FunnyVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyVideo.swift; sourceTree = "<group>"; };
@@ -146,6 +147,7 @@
 		1DB7A1A229FB34980013DD55 /* FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				1D3F1CCB29FD00B2003E591F /* Info.plist */,
 				1DB7A1A329FB34980013DD55 /* FinalProjectApp.swift */,
 				1D17ECE729FC72C000C9D6A1 /* Models */,
 				1D17ECE629FC72B000C9D6A1 /* ViewModels */,
@@ -399,9 +401,9 @@
 				DEVELOPMENT_TEAM = DCJMCTKSN2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinalProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -428,9 +430,9 @@
 				DEVELOPMENT_TEAM = DCJMCTKSN2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinalProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
