@@ -79,7 +79,7 @@ struct LoginView: View {
                     PathView()
                 }
             }
-            .background(backgroundImage.opacity(0.9))
+            .background(backgroundImage)
             .alert(alertMessage, isPresented: $showingAlert) {
                 Button("OK", role: .cancel) {}
             }

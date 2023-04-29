@@ -44,7 +44,7 @@ struct MoodSelectionView: View {
                 .font(.title2)
                 .padding()
             }
-            .background(backgroundImage.opacity(0.9))
+            .background(backgroundImage)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button("Back") {

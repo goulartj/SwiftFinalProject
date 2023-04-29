@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D17ECE129FC716000C9D6A1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17ECE029FC716000C9D6A1 /* Post.swift */; };
 		1D3F1CB429FCDBB8003E591F /* HappyVideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F1CB329FCDBB7003E591F /* HappyVideoViewModel.swift */; };
 		1D3F1CB629FCDBC3003E591F /* FunnyVideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F1CB529FCDBC3003E591F /* FunnyVideoViewModel.swift */; };
 		1D3F1CB829FCDBCD003E591F /* SmartVideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F1CB729FCDBCD003E591F /* SmartVideoViewModel.swift */; };
@@ -40,7 +39,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D17ECE029FC716000C9D6A1 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		1D3F1CB329FCDBB7003E591F /* HappyVideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyVideoViewModel.swift; sourceTree = "<group>"; };
 		1D3F1CB529FCDBC3003E591F /* FunnyVideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyVideoViewModel.swift; sourceTree = "<group>"; };
 		1D3F1CB729FCDBCD003E591F /* SmartVideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartVideoViewModel.swift; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 		1D17ECE729FC72C000C9D6A1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1D17ECE029FC716000C9D6A1 /* Post.swift */,
 				1D4D2E7C29FCD96C00BD6678 /* HappyVideo.swift */,
 				1D4D2E7E29FCD97700BD6678 /* FunnyVideo.swift */,
 				1D4D2E8029FCD98E00BD6678 /* SmartVideo.swift */,
@@ -258,7 +255,6 @@
 				1D3F1CCA29FCF33D003E591F /* SmartVideoView.swift in Sources */,
 				1D3F1CB629FCDBC3003E591F /* FunnyVideoViewModel.swift in Sources */,
 				1DB7A1C129FB57A20013DD55 /* ContributerView.swift in Sources */,
-				1D17ECE129FC716000C9D6A1 /* Post.swift in Sources */,
 				1D3F1CC429FCF320003E591F /* HappyVideoView.swift in Sources */,
 				1D4D2E7F29FCD97700BD6678 /* FunnyVideo.swift in Sources */,
 				1D3F1CC829FCF332003E591F /* SadVideoView.swift in Sources */,

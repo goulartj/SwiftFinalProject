@@ -45,7 +45,7 @@ struct PathView: View {
                 }
             }
             .navigationBarBackButtonHidden(true)
-            .background(backgroundImage.opacity(0.9))
+            .background(backgroundImage)
             .fullScreenCover(isPresented: $presentContributer) {
                 ContributerView()
             }

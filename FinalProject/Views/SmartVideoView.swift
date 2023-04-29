@@ -37,7 +37,7 @@ struct SmartVideoView: View {
                     }
                 }
             }
-            .background(backgroundImage.opacity(0.9))
+            .background(backgroundImage)
         }
     }
 }

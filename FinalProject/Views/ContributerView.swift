@@ -11,7 +11,6 @@ import Firebase
 import FirebaseFirestoreSwift
 
 struct ContributerView: View {
-    @FirestoreQuery(collectionPath: "posts") var posts: [Post]
     @FirestoreQuery(collectionPath: "happyVideos") var happyVideos: [HappyVideo]
     @FirestoreQuery(collectionPath: "funnyVideos") var funnyVideos: [FunnyVideo]
     @FirestoreQuery(collectionPath: "smartVideos") var smartVideos: [SmartVideo]
@@ -39,7 +38,7 @@ struct ContributerView: View {
                     NavigationLink {
                         HappyDetailView(happyVideo: happyVideo)
                     } label: {
-                        Text(happyVideo.title)
+                        Text("\(happyVideo.title) - \(happyVideo.user)")
                             .font(.system(size:15))
                     }
                 }
@@ -65,7 +64,7 @@ struct ContributerView: View {
                     NavigationLink {
                         FunnyDetailView(funnyVideo: funnyVideo)
                     } label: {
-                        Text(funnyVideo.title)
+                        Text("\(funnyVideo.title) - \(funnyVideo.user)")
                             .font(.system(size:15))
                     }
                 }
@@ -84,7 +83,7 @@ struct ContributerView: View {
                     NavigationLink {
                         SmartDetailView(smartVideo: smartVideo)
                     } label: {
-                        Text(smartVideo.title)
+                        Text("\(smartVideo.title) - \(smartVideo.user)")
                             .font(.system(size:15))
                     }
                 }
@@ -103,7 +102,7 @@ struct ContributerView: View {
                     NavigationLink {
                         SadDetailView(sadVideo: sadVideo)
                     } label: {
-                        Text(sadVideo.title)
+                        Text("\(sadVideo.title) - \(sadVideo.user)")
                             .font(.system(size:15))
                     }
                 }
